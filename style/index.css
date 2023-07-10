@@ -1,3 +1,4 @@
+/* header part style  */
 .header {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
@@ -25,9 +26,10 @@
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
-   
+
 }
-.btn{
+
+.btn {
     color: white;
     background-color: #E55473;
     border-radius: 5px;
@@ -45,4 +47,68 @@
     width: 300px;
     height: 400px;
     margin-bottom: 0px;
+}
+
+/* section 1 started */
+.title {
+
+    margin-top: 60px;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.sub-title {
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+.flowers-section {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.flowers-section img {
+    width: 200px;
+    height: 200px;
+
+
+}
+
+.pic-1 {
+
+    background: rgba(167, 33, 98, 0.15);
+    border-radius: 150px 150px 0px 0px;
+    padding: 50px 30px 0px 30px;
+}
+.pic-2 {
+
+    background:rgba(5, 151, 160, 0.15);
+    border-radius: 150px 150px 0px 0px;
+    padding: 50px 30px 0px 30px;
+}
+.pic-3 {
+
+    background: rgba(71, 125, 17, 0.15);
+    border-radius: 150px 150px 0px 0px;
+    padding: 50px 30px 0px 30px;
+}
+.pic-name{
+    text-decoration: underline;
+    text-align: center;
+    font-size: 10px;
 }
