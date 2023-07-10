@@ -1,0 +1,48 @@
+.header {
+    display: flex;
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+}
+
+.header-text {
+    width: 60%;
+    margin: 80px 50px 50px 50px;
+
+}
+
+.header-title {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.header-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+   
+}
+.btn{
+    color: white;
+    background-color: #E55473;
+    border-radius: 5px;
+    font-size: 10px;
+    padding: 5px;
+
+}
+
+.header-img {
+    width: 40%;
+    margin-top: 50px;
+}
+
+.header-img img {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 0px;
+}
