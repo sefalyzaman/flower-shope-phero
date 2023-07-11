@@ -2,7 +2,7 @@
 .header {
     display: flex;
     background-color: rgba(229, 84, 115, 0.10);
-    ;
+
 }
 
 .header-text {
@@ -22,7 +22,6 @@
 
 .header-description {
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -66,9 +65,7 @@
 
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 10px;
-    font-style: normal;
     font-weight: 400;
     line-height: 10px;
     margin-left: 300px;
@@ -95,19 +92,22 @@
     border-radius: 150px 150px 0px 0px;
     padding: 50px 30px 0px 30px;
 }
+
 .pic-2 {
 
-    background:rgba(5, 151, 160, 0.15);
+    background: rgba(5, 151, 160, 0.15);
     border-radius: 150px 150px 0px 0px;
     padding: 50px 30px 0px 30px;
 }
+
 .pic-3 {
 
     background: rgba(71, 125, 17, 0.15);
     border-radius: 150px 150px 0px 0px;
     padding: 50px 30px 0px 30px;
 }
-.pic-name{
+
+.pic-name {
     text-decoration: underline;
     text-align: center;
     font-size: 10px;
@@ -115,19 +115,75 @@
 }
 
 /* second style start */
-.second-section{
+.second-section {
     width: 90%;
 
     display: flex;
     justify-content: center;
     gap: 20px;
     margin: 80px auto 50px auto;
-    background-color: rgba(39, 39, 39, 0.05);;
+    background-color: rgba(39, 39, 39, 0.05);
+
 }
-.second-section img{
+
+.second-section img {
     padding: 20px;
 }
-.img-name{
+
+.img-name {
     text-align: center;
     font-size: 10px;
+}
+
+/* third section style */
+.third-section{
+    background-color: rgba(229, 84, 115, 0.05);
+    margin: 30px 0px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.flower-text {
+    width: 60%;
+    border: 400px auto 300px auto;
+    bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 10px auto;
+   
+}
+.title-text{
+    font-size: 20px;
+    font-family: normal;
+    text-align: center;
+    
+    
+}
+.span{
+    color: red;
+}
+.section-description{
+    font-size: 10px;
+    padding: 5px;
+    margin: 0 50px;
+}
+.btn-1{
+    color: #fff;
+    background-color: #E55473;
+    border-radius: 5px;
+    font-size: 10px;
+    font-weight: 700px;
+    padding: 5px;
+   
+}
+.flower-rose{
+
+    width: 40%;
+   
+}
+.flower-rose img{
+    padding: 20px;
+    width: 150px;
+    height: 150px;
 }
